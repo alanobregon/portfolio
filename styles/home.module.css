@@ -1,0 +1,27 @@
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.header {
+  margin: 0;
+  padding: 3rem 0;
+  font-size: 3rem;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 4.5rem;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.about {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}

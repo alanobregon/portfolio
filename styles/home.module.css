@@ -20,12 +20,6 @@
   text-decoration: none;
 }
 
-.about {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-}
-
 @media (max-width: 1200px) {
   .container {
     padding: 0 1rem;
@@ -55,18 +49,5 @@
 @media (max-width: 480px) {
   .header {
     font-size: 2.5rem;
-  }
-
-  .about {
-    bottom: .2rem;
-    right: .2rem;
-  }
-}
-
-@media (max-height: 700px) {
-  .about {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
   }
 }

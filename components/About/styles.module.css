@@ -1,0 +1,24 @@
+.about {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.icon {
+  width: 6rem;
+}
+
+@media (max-width: 480px) {
+  .about {
+    bottom: .2rem;
+    right: .2rem;
+  }
+}
+
+@media (max-height: 700px) {
+  .about {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+}

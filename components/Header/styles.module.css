@@ -1,0 +1,48 @@
+.container {
+  padding: 3rem 0;
+  font-size: 2rem;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.home {
+  flex-grow: 1;
+}
+
+.items {
+  padding-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem 0;
+  }
+
+  .items {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .home {
+    margin-bottom: 2rem;
+  }
+
+  .items {
+    padding: 0;
+  }
+}

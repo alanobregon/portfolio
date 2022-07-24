@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Alan Obregón</title>
+        <meta name="description" content="Alan Obregon's website" />
       </Head>
 
       <div className={styles.container}>

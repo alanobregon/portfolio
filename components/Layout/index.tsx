@@ -3,6 +3,8 @@ import { Header } from "../Header";
 import { FC, ReactNode } from "react";
 
 import styles from "./styles.module.css"
+import { About } from "../About";
+import { useRouter } from "next/router";
 
 interface Props {
   title?: string;
@@ -15,14 +17,21 @@ export const Layout: FC<Props> = (props) => {
     children, 
   } = props;
 
+  const router = useRouter();
+
   return (
     <div className={styles.container}>
       <Head>
-        <title>{ title }</title>
+        <title>{title}</title>
       </Head>
 
       <Header />
-      { children }
+      {children}
+
+      {
+        router.pathname !== "/about" 
+          && <About />
+      }
     </div>
   );
 };

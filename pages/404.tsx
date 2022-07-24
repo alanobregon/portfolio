@@ -23,7 +23,6 @@ export default function PageNotFound() {;
         </div>
         <h1 className={styles.title}>Page not found</h1>
       </div>
-      <About />
     </Layout>
   )
 }

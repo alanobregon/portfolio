@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/home.module.css";
 
-import { AboutIcon } from "../components/AboutIcon";
+import { About } from "../components/About";
 
 export default function Home() {
   return (
@@ -41,13 +41,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <div className={styles.about}>
-          <Link href={`/about`}>
-            <a>
-              <AboutIcon />
-            </a>
-          </Link>
-        </div>
+        <About />
       </div>
     </>
   );

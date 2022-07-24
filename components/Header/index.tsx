@@ -11,8 +11,8 @@ interface Item {
 export const Header = () => {
   const items: Item[] = [
     { name: "code", href: "/code" },
-    { name: "skills", href: "/skills" },
-    { name: "contact", href: "/contact" },
+    { name: "posts & articles", href: "/articles" },
+    { name: "portfolio", href: "/portfolio" },
   ];
 
   const { pathname } = useRouter();

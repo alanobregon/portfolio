@@ -28,12 +28,6 @@
     padding: 1rem 0;
   }
 
-  .items {
-    padding-left: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
   .header {
     flex-direction: column;
   }

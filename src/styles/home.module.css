@@ -1,0 +1,30 @@
+.container {
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+}
+
+.header {
+  margin: 0;
+  font-size: 3rem;
+  min-height: 6rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  font-size: 5.5rem;
+  font-weight: 700;
+  justify-content: space-evenly;
+  height: calc(100vh - 6rem);
+
+}
+
+.links a {
+  text-decoration: none;
+}

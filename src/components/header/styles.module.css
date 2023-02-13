@@ -1,0 +1,24 @@
+.container {
+  padding: 3rem 0;
+  font-size: 2rem;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.home {
+  flex-grow: 1;
+}
+
+.items {
+  margin-left: 2rem;
+}

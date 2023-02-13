@@ -1,14 +1,24 @@
-import './globals.css'
+"use client"
 
+import "../styles/globals.css";
+import Header from "@/components/header";
+
+import { usePathname } from "next/navigation";
+import { Josefin_Sans } from "@next/font/google";
+
+const josefin = Josefin_Sans();
 export default function RootLayout({ children }) {
+  const pathname = usePathname();
+
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang="en" className={josefin.className}>
       <head />
-      <body>{children}</body>
+      <body>
+        <div className="container">
+          { pathname !== "/" && <Header />}
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

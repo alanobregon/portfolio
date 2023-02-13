@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2563eb;
+}
+
+h1,
+h2,
+h3,
+h4, 
+h5, 
+a {
+  margin: 0;
+  padding: 0;
+  color: #ec4899;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+}

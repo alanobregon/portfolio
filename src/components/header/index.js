@@ -22,7 +22,7 @@ export default function Header() {
           </Link>
         </li>
         { urls.map(url => url.href !== pathname && (
-          <li className={styles.items}>
+          <li key={url.href} className={styles.items}>
             <Link href={url.href}>
               {url.title}
             </Link>

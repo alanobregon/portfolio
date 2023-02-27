@@ -7,7 +7,7 @@ export default function Head() {
       <link rel="icon" type="image/png" href="/favicon.png" />
 
       <script 
-        dangerouslySetInnerHtml={{
+        dangerouslySetInnerHTML={{
           __html: `
           (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};

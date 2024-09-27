@@ -1,0 +1,19 @@
+.main {
+  padding: 8rem 40rem 8rem 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.hello {
+  font-size: 6rem;
+}
+
+.whoami {
+  font-size: 3rem;
+}
+
+.description {
+  font-size: 2.5rem;
+}

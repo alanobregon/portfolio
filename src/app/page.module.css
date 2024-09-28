@@ -1,5 +1,5 @@
 .main {
-  padding: 8rem 40rem 8rem 15rem;
+  padding: 7rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -8,6 +8,7 @@
 
 .hello {
   font-size: 6rem;
+  font-weight: bold;
 }
 
 .whoami {
@@ -15,5 +16,41 @@
 }
 
 .description {
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding: 6rem 4rem;
+  }
+
+  .hello {
+    font-size: 6.5rem;
+  }
+
+  .whoami {
+    font-size: 3.5rem;
+  }
+
+  .description {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    padding: 8rem 13rem 8rem 6rem;
+  }
+}
+
+@media (min-width: 1220px) {
+  .main {
+    padding: 8rem 13rem 8rem 10rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main {
+    padding: 8rem 40rem 8rem 10rem;
+  }
 }

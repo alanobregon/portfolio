@@ -7,7 +7,7 @@
 }
 
 .hello {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .description {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 @media (min-width: 768px) {

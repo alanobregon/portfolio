@@ -13,7 +13,7 @@ export default function Home() {
 
       <p className={styles.description}>
         I am an software developer living in Argentina.
-        At the moment I work at <a href="https://neoris.com/">NEORIS</a>
+        At the moment I work at <a href="https://www.hiberus.com/">hiberus</a>
       </p>
 
       <p className={styles.description}>
